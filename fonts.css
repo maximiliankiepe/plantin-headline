@@ -4,3 +4,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* echte Italic dazu */
+@font-face {
+  font-family: "okslogov1-regular"; /* WICHTIG: gleicher Name wie oben */
+  src: url("Plantin-LK-LightItalic.woff2") format("woff2"),
+       url("Plantin-LightItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;               /* WICHTIG */
+  font-display: swap;
+}
